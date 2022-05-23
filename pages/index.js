@@ -3,8 +3,9 @@ import Head from 'next/head'
 import { useEffect, useState } from 'react'
 import Song from '../components/Song'
 
+
 const CLIENT_ID = '6e98e9db381048faa1c7f57f13ac2c6d'
-const REDIRECT_URI = 'http://localhost:3000'
+const REDIRECT_URI = 'https://spotify-test-tan.vercel.app'
 const AUTH_ENDPOINT = "https://accounts.spotify.com/authorize"
 const RESPONSE_TYPE = "token"
 
